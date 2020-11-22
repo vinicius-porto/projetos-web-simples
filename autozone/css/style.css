@@ -1,0 +1,347 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+                      /* Barra de Rolagem*/           
+  
+ ::-webkit-scrollbar-track{background-color: black}
+::-webkit-scrollbar{width:15px;background:#db222d}
+::-webkit-scrollbar-thumb{background:#db222d}
+::selection{background:#db222d;color:#fff}
+::-moz-selection{background:#db222d;color:#fff}
+                    
+                    /* Barra de Rolagem*/ 
+
+    /* background sidenav mobile dropdown */              
+ .sidenav{
+  border-right: 2px solid whitesmoke; 
+  background: black;
+ }
+ .sidenav li > a {
+  color: rgba(255, 255, 255, 0.87);
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 32px;
+}
+.sidenav li > a:hover{
+  background: rgb(119, 119, 119);
+}
+
+
+
+
+
+
+
+ .logo-mobile-drop{
+ margin-left: 50px;
+  width: 200px;
+}
+
+
+
+
+ .logo-icon{
+   width: 140px;
+ }
+ 
+ .logo-img{
+  position: absolute;
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 250px;
+ }
+ nav .brand-logo {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+  margin-top: 10px;
+}
+.light{
+  text-align: center;
+}
+
+/*header*/
+.light-blue.lighten-1{
+  background-color: #212121!important;    
+  height: auto;
+}
+
+nav ul a{
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    color: #fff;
+    display: block;
+    margin-left: 13px;
+    padding: 10px;
+    height: 90px;
+    cursor: pointer;
+}
+nav .sidenav-trigger i {
+  height: 56px;
+  line-height: 56px;
+  margin-top: 15px;
+  margin-left: -20px;
+}
+
+nav ul a:hover{
+        
+  background: #dc232e;
+}
+ nav ul a.btn-large, nav ul a.btn-small, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
+ 
+  border-radius: 40px;
+  min-width: 140px;
+  height: 40px;  
+  padding: 6px;
+  margin-top: 14px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.btn-small.mater:hover{
+ border: 2px solid #ff0011;
+ color: #ffffff;
+ background: #ff0011;
+ 
+ 
+  transition: all ease 1.2s;
+}
+.btn-small.mater {
+  text-decoration: none;
+  color: #fff;
+  background-color: #db222d;
+  text-align: center;
+  letter-spacing: .5px;
+  -webkit-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
+  cursor: pointer;
+}
+
+/* section */
+.section.no-pad-bot {
+  padding-bottom: 5px;
+ background-image: url(../img/bg-page-header-.jpg);
+
+}
+.icon-block:hover{
+  transition: 0.4 all ease;
+  background: #db222d;
+}
+.icon-block {
+  -webkit-box-shadow: 3px -1px 20px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px -1px 20px 0px rgba(0,0,0,0.75);
+box-shadow: 3px -1px 20px 0px rgba(0,0,0,0.75);
+  background: rgb(12, 12, 12);
+  border-radius: 7px; 
+  height: 272px;  
+   padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+/* section starter template */
+.orange-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 52px;
+  padding: 10px;  
+  line-height: 1.15;
+    font-weight: 900;
+  text-align: center;
+  color: #ffffff !important;
+}
+.btn-small:hover{
+    background: #db222d;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  --webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  margin-top: 19px;
+}
+/*  footer */
+.orange {
+  background-color: #010101 !important;
+}
+section{
+  background: #ffffff;
+}
+img {
+  border-style: none;
+  margin-top: 50px;
+}
+center, .center-align {
+  text-align: center;
+  text-transform: uppercase;
+}
+h5 {
+  font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
+  font-size: 1.60rem;
+  line-height: 110%;
+  margin: 1.0933333333rem 0 0.656rem 0;
+}
+
+.logo-footer{
+  width: 150px;
+  margin-top: 10px;
+}
+.meio-4{
+  background: #000000f0;
+}
+h4{
+  font-size: 2.56rem;
+  font-family: 'Poppins', sans-serif;
+}
+.btn-large.materialize{
+  background: black;
+  border-radius: 40px;  
+  font-weight: 600;
+  width: 280px;
+}
+.btn-large.materialize:hover{
+  background: #db222d;
+}
+.meio-4{
+  background: black;
+} 
+.logons-icosn{
+  padding: 10px;
+  width: 54px;
+}
+.orange-text.text-lighten-3 {
+  color: #fff9f1 !important;
+}
+/* footer */
+.page-footer .footer-copyright {
+  height: 50px;
+  overflow: hidden;
+  min-height: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 10px 0px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #db222d;
+}
+.orange-text.text-lighten-3 {
+    font-size: 18px;
+    /*font-weight: 400; */
+    color: #fff9f1 !important;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    /* background-color: transparent; */
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transition: border .3s, -webkit-box-shadow .3s;
+    transition: border .3s, -webkit-box-shadow .3s;
+    transition: box-shadow .3s, border .3s;
+    transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+}
+
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    /* background-color: transparent; */
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transition: border .3s, -webkit-box-shadow .3s;
+    transition: border .3s, -webkit-box-shadow .3s;
+    transition: box-shadow .3s, border .3s;
+    transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+}
+
+ /*  LABEL    */   
+
+
+ /* label color  */
+
+.input-field > label:not(.label-icon).active {
+    -webkit-transform: translateY(-14px) scale(0.8);
+    transform: translateY(-14px) scale(0.8);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    color: black;
+}
+
+/* label color focus */
+
+input:not([type]):focus:not([readonly]) + label, input[type=text]:not(.browser-default):focus:not([readonly]) + label, input[type=password]:not(.browser-default):focus:not([readonly]) + label, input[type=email]:not(.browser-default):focus:not([readonly]) + label, input[type=url]:not(.browser-default):focus:not([readonly]) + label, input[type=time]:not(.browser-default):focus:not([readonly]) + label, input[type=date]:not(.browser-default):focus:not([readonly]) + label, input[type=datetime]:not(.browser-default):focus:not([readonly]) + label, input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label, input[type=tel]:not(.browser-default):focus:not([readonly]) + label, input[type=number]:not(.browser-default):focus:not([readonly]) + label, input[type=search]:not(.browser-default):focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #db222d;
+}
+
+
+
+  /* INPUT COLOR FOCUS */
+ 
+
+/* input color focus  */
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #db222d;
+  
+  -webkit-box-shadow: 0 1px 0 0 #db222d;
+           box-shadow: 0 1px 0 0 #db222d; 
+}
