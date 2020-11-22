@@ -1,0 +1,28 @@
+@media (max-width: 900px){
+	#header #nav {
+		display: none;
+	}
+	#header .navbar {
+		display: block;
+		position: absolute;
+	    z-index: 99;
+	    right: 7px;
+	    top: 52px;
+	    border-radius: 8px;
+	}
+	#header {
+		background-size: cover;
+	}
+	#cardapio {
+		height: auto;
+		padding-bottom: 50px;
+	}
+	form input, form select {
+		width: 100% !important;
+	}
+   
+	 h3{
+		  font-size: 30px!important;
+	 }
+
+}

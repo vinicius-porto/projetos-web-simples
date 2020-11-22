@@ -1,0 +1,205 @@
+::-webkit-scrollbar-track{background-color:#1b1b1b}
+::-webkit-scrollbar{width:15px;background:#1b1b1b}
+::-webkit-scrollbar-thumb{background:crimson}  /*background:#00e868 */
+::selection{background:#00e868;color:#fff}
+::-moz-selection{background:#00e868;color:#fff}
+a, button {
+	transition: all ease .5s;
+}
+.navbar {
+	display: none;
+}
+#header {
+	width: 100%;
+	height: 500px;
+	background: url('../imagens/bg01.jpg');
+	background-size: 100%;
+	background-position: center;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
+	background-attachment: fixed;
+}
+#header .overlay{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.5;
+	z-index: 0;
+} 
+#header #nav ul {
+	list-style: none;
+}
+#header #nav ul li {
+	float: left;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+#header #nav {
+	float: right;
+	position: relative;
+	top: 55px;
+	z-index: 9;
+}
+#header #nav ul li a {
+	color: #fff;
+	background: #ed2f44;
+	padding: 5px 20px;
+	border-radius: 50px;
+}
+#header #nav ul li a:hover {
+	-webkit-box-shadow: 0px 10px 8px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 8px -5px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 8px -5px rgba(0,0,0,0.75);
+text-decoration: none;
+}
+#header #logotipo {
+	position: absolute;
+	z-index: 9;
+	width: 200px;
+	top: 30px;
+}
+#header #logotipo img {
+	width: 100%;
+}
+#header .texto {
+	position: absolute;
+	z-index: 9;
+	color: #fff;
+	margin-left: 40%;
+	top: 200px;
+}
+#header .texto h3 {
+	font-size: 45px;
+	text-shadow: 3px 3px #000;
+}
+
+#cardapio {
+	margin-top: 50px;
+}
+
+#cardapio h2 {
+	font-size: 45px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+#cardapio .box {
+	background: #ed2f44;
+	min-height: 400px;
+	padding: 30px;
+}
+#cardapio h3 {
+	color: #fff;
+	text-align: center;
+	font-size: 35px;
+}
+#cardapio table {
+	width: 100%;
+	color: #fff;
+}
+#cardapio table thead {
+	font-weight: bold;
+	font-size: 20px;
+}
+#cardapio table thead td {
+	background: #6b1821 !important;
+}
+#cardapio table td {
+	border:solid 1px #fff;
+	text-align: center; 
+	padding-bottom: 10px;	
+	padding-top: 10px;	
+	font-weight: bold;
+}
+#cardapio table td span {
+	font-size: 10px;
+	display: block;
+	margin: 0;
+	font-weight: initial;
+}
+#cardapio table td {
+	width: 70%;
+}
+#cardapio .box {
+	position: relative;
+	transition: all ease .5s;
+}
+#cardapio .box:hover {
+	margin-top: -20px;
+}
+#cardapio {
+	position: relative;
+	height: 600px;
+}
+.form {
+	width: 100%;
+	min-height: 500px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #ed2f44;
+}
+.form h2 {
+	color: #fff;
+	text-align: center;
+	padding: 50px 50px;
+}
+form {
+	width: 100%;
+	display: flex;
+	color: #fff;
+}
+.form label, .form input {
+	display: block !important;
+}
+.form label {
+	margin-top: 20px;
+}
+.form input, .form select {
+	background: transparent;
+	width: 80%;
+	height: 50px;
+	border: solid 2px #fff;
+	border-radius: 10px;
+	padding-left: 10px;
+	color: #fff;	
+	outline: none;
+}
+.form option {
+	color: #000;
+}
+.form button {
+	background: #fff;
+	color: #ed2f44;
+	border: 0;
+	padding: 20px 40px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+form {
+	width: 100%;
+	display: contents;
+}
+
+footer {
+	padding-top: 100px;
+}
+footer h3 {
+	font-weight: bold;
+	font-size:25px;
+}
+.copy {
+	background: #efefef;
+	width: 100%;
+	height: 50px;
+	margin-top: 50px;
+}
+.copy p {
+	line-height: 50px;
+	margin-bottom: 0;
+}
+.content {
+	margin-top: 50px;
+}
