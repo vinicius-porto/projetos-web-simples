@@ -6,4 +6,4 @@ https://autozone-repair.netlify.app/
 
 # Açaí - website 
 https://acai.netlify.app/
-<img src='![Websiteaçai](https://user-images.githubusercontent.com/55770422/105740081-95614b00-5f17-11eb-8be9-058df3cdf5e8.png)' width='100px'>
+![Websiteaçai](https://user-images.githubusercontent.com/55770422/105740081-95614b00-5f17-11eb-8be9-058df3cdf5e8.png)' 
