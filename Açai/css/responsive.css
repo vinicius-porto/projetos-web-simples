@@ -1,0 +1,39 @@
+@media (max-width: 900px){
+	
+	#header #nav {
+		display: none;
+	}
+	#header .navbar {
+		display: block;
+		position: absolute;
+	    z-index: 99;
+	    right: 7px;
+	    top: 52px;
+	    border-radius: 8px;
+	}
+	#header #logotipo img {
+		width: 100%;
+		position: relative;
+		left: 55px;
+	}
+	
+	#header .overlay{
+		background-size: cover;
+		background-position: center;
+	}
+	#header .texto h3 {
+		font-size: 27px;
+	text-shadow: 3px 3px #000;
+	position: relative;
+    right: 70px;
+    top: 49px;
+}
+	
+	#cardapio {
+		height: auto;
+		padding-bottom: 50px;
+	}
+	form input, form select {
+		width: 100% !important;
+	}
+}
