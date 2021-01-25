@@ -5,4 +5,4 @@ https://hamburger-website.netlify.app/
 https://autozone-repair.netlify.app/
 
 # Açaí - website 
-https://autozone-repair.netlify.app/
+https://acai.netlify.app/
