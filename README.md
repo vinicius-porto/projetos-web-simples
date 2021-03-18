@@ -4,7 +4,7 @@
 ![light-theme](https://user-images.githubusercontent.com/55770422/111672078-599c8080-87f8-11eb-9bc0-76034c51f34d.jpg)
 ![dark-theme](https://user-images.githubusercontent.com/55770422/111672083-5acdad80-87f8-11eb-9a3c-c73ab33acbaa.jpg)
 
-# CODE - FORM 
+# Code - FORM 
 ![Form_ui_code](https://user-images.githubusercontent.com/55770422/111672879-28708000-87f9-11eb-8afd-d073d7b61fe5.jpg)
 
 
