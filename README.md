@@ -11,17 +11,7 @@ https://hamburger-website.netlify.app/
 https://autozone-repair.netlify.app/
 ![Websiteautozone](https://user-images.githubusercontent.com/55770422/105741241-d4dc6700-5f18-11eb-9ac8-474a62f27453.png)
 
-# Açaí - website 
-https://acai.netlify.app/
-![Websiteaçai](https://user-images.githubusercontent.com/55770422/105740081-95614b00-5f17-11eb-8be9-058df3cdf5e8.png)' 
 
-
-# Behero  Projeto Rocketseat -  
-![light-theme](https://user-images.githubusercontent.com/55770422/111672078-599c8080-87f8-11eb-9bc0-76034c51f34d.jpg)
-![dark-theme](https://user-images.githubusercontent.com/55770422/111672083-5acdad80-87f8-11eb-9a3c-c73ab33acbaa.jpg)
-
-# Code - FORM 
-![Form_ui_code](https://user-images.githubusercontent.com/55770422/111672879-28708000-87f9-11eb-8afd-d073d7b61fe5.jpg)
 
 
 # Talkchat - FORM 
